@@ -62,8 +62,8 @@
 						this.cliked[i].push(false);
 					}	
 				}
-				console.log("clikedBefore: ",this.cliked)
-				console.log(this.menulist)
+				// console.log("clikedBefore: ",this.cliked)
+				// console.log(this.menulist)
 				
 			})
 		},
@@ -173,6 +173,7 @@
 	aside {
 		float: left;
 		width: 13%;
+		min-width: 200px;
 		height: 100%;
 		background: #323744;
 		color: #fff;
@@ -272,5 +273,8 @@
 		float: left;
 		width: 87%;
 		height: 100%;
+		padding: 20px;
+		//background: pink;
+		box-sizing: border-box;
 	}
 </style>
